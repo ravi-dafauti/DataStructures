@@ -62,7 +62,6 @@ int main()
 
 	printf("Given linked list\n");
 	printList(head);
-
 	rootNnode(&head);
 	return 0;
 }
