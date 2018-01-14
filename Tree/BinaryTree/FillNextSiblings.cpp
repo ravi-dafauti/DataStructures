@@ -1,3 +1,6 @@
+/* given a complete binary tree with left,right and nextSibling pointer, give an algorithm for filling the next siblings pointer assuming
+they are initially null.
+*/
 #include<iostream>
 #include<stack>
 #include<queue>
