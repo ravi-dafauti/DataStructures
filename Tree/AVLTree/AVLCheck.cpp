@@ -34,7 +34,7 @@ int abs(int a)
 int isAVL(Node *root_ref)
 {
 	if (root_ref == NULL)
-		return -1;
+		return 0;
 	int l = isAVL(root_ref->left);
 	if (l == -1)
 		return l;
